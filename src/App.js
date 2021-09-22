@@ -4,12 +4,14 @@
     import Header from './Header.js'
     import Form from './Form.js'
     import PlayersNumber from './NumberOfPlayers.js'
+
     class App extends Component {
     render() {
     return (
     <div>
         <Header/>
-        <PlayersNumber/>
+            <PlayersNumber/>
+        <Contacts/>
     </div>
      );
 }
